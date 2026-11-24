@@ -1,6 +1,6 @@
 # Southpaw Games Development Hub
 
-Southpaw Games 내부 제작 도구의 공통 개발 원칙, 프로젝트 진행 상태, 배포와 주요 기술 결정을 확인하는 비공개 허브입니다.
+Southpaw Games 내부 제작 도구의 공통 개발 원칙, 프로젝트 진행 상태, 배포와 주요 기술 결정을 확인하는 공개 허브입니다. 문서는 GitHub 로그인 없이 읽을 수 있습니다.
 
 [AI 시작 안내](docs/AI_START_HERE.md) · [공통 개발 지침](docs/DEVELOPMENT_RULES.md) · [배포 절차](docs/RELEASE_GUIDE.md) · [주요 결정](docs/DECISIONS.md)
 
