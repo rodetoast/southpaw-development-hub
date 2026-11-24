@@ -4,6 +4,8 @@
 
 - **구현 범위** 로컬 파일을 통한 레이어 전송과 프레임·정렬 지원
 - **운영 버전** 0.3.6
+- **다음 배포용 표시명** Photoshop ↔ Aseprite. 설명: “Photoshop과 Aseprite 사이에서 레이어와 프레임을 손쉽게 주고받고 정렬합니다.” 운영 카탈로그는 변경하지 않았습니다.
+- **후속 UI 소스** `6356f7f`: 방향별 전송, 좁은 창 배치, 가이드 진행 표시와 선택적 경고 검토. 자동 116개 통과, Windows Qt 세 언어·100~200% 배율 확인. [구현 화면](https://github.com/rodetoast/PS2ASE/blob/6356f7f71f5e96c0cded0da707d2c774487776df/docs/ui-reviews/product-ui.md). 기존 후보 EXE/ZIP 미포함.
 - **후속 UI 소스** `c4f628a`: Photoshop 연결 선택과 선택 버전의 실행 경고 검토를 분리하고, Aseprite 안내 순서와 기본 접힘 진단 패널을 정리했습니다. 자동 115개 통과, [Windows Qt 화면 검토](https://github.com/rodetoast/PS2ASE/blob/c4f628aba74acce7ac428dea3f35215afea3dd59/docs/ui-reviews/setup-ux.md). 기존 0.3.7-rc1 EXE/ZIP에는 미포함입니다.
 - **개발 상태** 0.3.7 Windows Onefile 후보 `0.3.7-rc1-74f57bb` 제작 완료. Photoshop 2027 제품명/내부 28.0(실제 JSX 28.0.0)을 구분해 설정 경로를 보완하고 기존 시작·버전 선택·복사·진단·원본 보호 개선을 포함했습니다. 운영은 계속 0.3.6입니다.
 - **검증** 자동 113개 통과(skip 0). 실제 2027/Aseprite 1.3.18.6 합성 문서로 세 Copy Mode x 세 정렬, 프레임/row 순서·빈 cel, 양방향 픽셀/알파/좌표를 확인했습니다. 패키징 EXE의 Normal Copy/Preview와 역방향 Paste, 2026/2027 목록 구분·저장 경로 복원도 확인했습니다. 2026 및 이전 호스트 실기동, 기존 GUI F4/F5/최초 Trust 재시험과 모든 PC/DPI는 미검증입니다.
