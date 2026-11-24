@@ -8,4 +8,28 @@
 - 서명, 해시, 신뢰 바인딩, 카탈로그 순번과 복구 보호를 유지합니다. 운영 게시, 저장소 소유권 변경, 실제 직원 환경 변경은 해당 범위의 승인을 확인합니다.
 - 완료 기록에 소스 커밋, 구현, 검증·미검증, 버전, 배포 상태 및 후속 작업을 남깁니다. 의미 있는 변경만 중앙 요약에 반영합니다. 공개 범위에 맞춰 직원 자료, 경로, 개인키·토큰을 제외합니다.
 
+## GitHub 개발 인증 및 중앙 허브 갱신
+
+- 개발 작업에는 기존 `rodetoast` 인증을 우선 사용합니다. `gh auth status`와 `gh api user --jq .login`으로 CLI 계정을 확인합니다. Git의 커밋 작성자 이름·이메일과 CLI의 로그인 계정만으로 실제 Git push 계정을 판단하지 않습니다.
+- PS2ASE 0.3.7 인계에서는 기본 Git HTTPS helper가 `toast-source`를 선택했습니다. 이 계정은 PS2ASE에 쓸 수 있었지만 중앙 허브에는 읽기만 가능해 HTTP 403이 발생했습니다. 다른 개발 저장소에서도 같은 helper 경로를 확인했습니다.
+- 여러 계정이 있는 환경에서는 기존 인증을 유지하고, 아래처럼 **현재 대상 저장소의 정확한 HTTPS push URL에 한해서** GitHub CLI helper를 사용합니다. 운영 배포 도구에는 이 개발 명령을 적용하지 않습니다.
+
+### Windows PowerShell 예시
+
+허브 작업 사본에서 GitHub CLI가 PATH에 있는 상태로 실행합니다. 이미 설치된 실행 파일이 PATH에 없다면 해당 세션에서만 찾을 수 있게 설정합니다. 먼저 실제 GitHub push URL과 `gh api user --jq .login`의 결과가 각각 의도한 저장소와 `rodetoast`인지 확인합니다.
+
+```powershell
+$target = git remote get-url --push origin
+$key = "credential.$target"
+git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username=rodetoast" push --dry-run origin HEAD:refs/heads/main
+```
+
+허브에서 최신 `origin/main`과 정상 fast-forward 관계이고 dry-run이 통과하면 같은 명령에서 `--dry-run`을 빼고 문서 변경을 반영합니다. 제품 소스 작업에서는 그 저장소의 검토된 개발 브랜치로 대상을 바꿉니다. 보호 정책이 PR을 요구하면 해당 절차를 따릅니다. Dry-run은 원격 브랜치를 바꾸지 않으며 모든 서버 측 보호 규칙 통과를 보장하지 않습니다.
+
+### HTTP 403이 발생하면
+
+1. CLI를 덮어쓸 수 있는 `GH_TOKEN`·`GITHUB_TOKEN`의 **존재만** 확인합니다. 실제 push URL과 fetch URL, URL 치환, HTTPS helper의 적용 범위 및 `credential.useHttpPath`를 확인합니다.
+2. 선택된 인증의 저장소 쓰기 권한, 토큰 권한 범위, 브랜치 보호 및 Ruleset을 확인합니다. 자격 증명과 토큰을 화면이나 로그에 출력하지 않습니다. 확인할 수 없는 권한은 미확인으로 남깁니다.
+3. 쓰기가 막히면 검토한 문서 커밋과 패치를 안전한 로컬 위치에 보존합니다. 최신 원격 기준, 로컬 커밋, 충돌과 미반영 범위를 인계합니다. 원격에서 문서를 확인한 뒤에만 동기화 완료로 기록합니다.
+
 [시작 안내](AI_START_HERE.md) · [배포 절차](RELEASE_GUIDE.md)
