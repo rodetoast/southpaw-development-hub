@@ -5,6 +5,8 @@
 3. Codex 지시에는 목표, 보존할 기능과 데이터, 변경 관련 검증, 배포 승인 경계, 완료 시 갱신할 문서를 포함합니다.
 4. 결과를 실제 커밋, 시험 증거, 운영 아티팩트와 비교합니다. 상태 문서가 다르면 확인한 코드·Git·서명 배포 근거에 맞게 문서를 바로잡습니다. 확인된 사실, 기존 보고서와 미검증 상태를 구분합니다.
 
+작업을 시작할 때 [프로젝트 간 협업 규칙](COLLABORATION.md)의 프로젝트 라벨에서 현재 프로젝트의 열린 안건만 확인합니다.
+
 ## 공개 허브 열기
 
 Codex와 웹 ChatGPT는 로그인 없이 GitHub에서 문서를 읽을 수 있습니다. GitHub 화면을 불러올 수 없다면 [Markdown 원문](https://raw.githubusercontent.com/rodetoast/southpaw-development-hub/main/docs/AI_START_HERE.md)이나 공개 Git clone을 사용합니다.

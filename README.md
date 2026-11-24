@@ -4,6 +4,8 @@ Southpaw Games 내부 제작 도구의 공통 개발 원칙, 프로젝트 진행
 
 [AI 시작 안내](docs/AI_START_HERE.md) · [공통 개발 지침](docs/DEVELOPMENT_RULES.md) · [배포 절차](docs/RELEASE_GUIDE.md) · [주요 결정](docs/DECISIONS.md)
 
+[협업 게시판](https://github.com/rodetoast/southpaw-development-hub/issues) · [프로젝트 간 질문과 기술 공유 규칙](docs/COLLABORATION.md)
+
 - [Southpaw 도구 런처](projects/launcher.md) · QML 0.2.2, Rod 카탈로그15와 Toast 호환 카탈로그9
 - [회사 제작 도구 5개와 Preview 프로젝트](docs/PROJECTS.md) · 운영 버전과 개발 상태
 - [Pixel Motion Studio](projects/pixel-motion-studio.md) · 로컬 보존 프로젝트

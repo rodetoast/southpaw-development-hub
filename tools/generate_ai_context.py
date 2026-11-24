@@ -18,6 +18,7 @@ COMMON_DOCS = (
     "docs/RELEASE_GUIDE.md",
     "docs/PROJECTS.md",
     "docs/DECISIONS.md",
+    "docs/COLLABORATION.md",
 )
 STATUS_LINK = re.compile(
     r"\]\((https://github\.com/(rodetoast/[\w.-]+)/blob/"
