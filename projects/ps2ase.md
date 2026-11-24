@@ -4,6 +4,7 @@
 
 - **구현 범위** 로컬 파일을 통한 레이어 전송과 프레임·정렬 지원
 - **운영 버전** 0.3.6
+- **작업 공간·환경 설정 개선** `fd1b1f4`: 창 높이에 반응하는 픽셀 미리보기, 좁은 창에서 두 전송 행 노출, 설치/등록/Trust/실동작 분리, 시각 도움말 개선. 자동 125개와 Windows Qt 100~200% 확인. 기존 후보에는 미포함. [갤러리](https://github.com/rodetoast/PS2ASE/blob/fd1b1f4285f67813eaa2fa4989eac6cedcd76fb5/docs/ui-reviews/ui-refinement/README.md) · [원본 해상도 메인 합본 PNG](https://raw.githubusercontent.com/rodetoast/PS2ASE/fd1b1f4285f67813eaa2fa4989eac6cedcd76fb5/docs/ui-reviews/ui-refinement/review-01-workspace.png)
 - **런처 디자인 통일** `582f185`: Southpaw 도구 런처 0.2.2의 Pretendard Variable과 다크/보라 토큰을 PS2ASE Widgets에 적용했습니다. 복사 레이어 편집 SVG, 정렬 및 프레임 모드의 세 언어 가운데 정렬, 실제 붙여넣기 동작을 설명하는 시각 도움말 6종을 추가했습니다. 자동 121개 및 Windows Qt 100~200% 확인; 기존 후보에는 미포함. [구현 갤러리](https://github.com/rodetoast/PS2ASE/blob/582f185e79ec2a10dee2253bf2cd380960f3bce9/docs/ui-reviews/launcher-system/README.md) · [대표 PNG](https://raw.githubusercontent.com/rodetoast/PS2ASE/582f185e79ec2a10dee2253bf2cd380960f3bce9/docs/ui-reviews/launcher-system/workspace-copied.png)
 - **편집 도구 후속 UI** `499918b`: 미리보기 안의 ‘복사 레이어 편집’에서 반전·회전과 실행 취소·다시 실행을 이름과 아이콘으로 표시합니다. 관련 테스트 25개, 세 언어·Windows Qt 100~200% 좁은 창 검증을 완료했습니다. [화면 전후 비교](https://github.com/rodetoast/PS2ASE/blob/499918b81e62d46e7e659f54e390897ec9a22ed3/docs/ui-reviews/copied-layer-editing.md). 미패키징 상태입니다.
 - **다음 배포용 표시명** Photoshop ↔ Aseprite. 설명: “Photoshop과 Aseprite 사이에서 레이어와 프레임을 손쉽게 주고받고 정렬합니다.” 운영 카탈로그는 변경하지 않았습니다.
