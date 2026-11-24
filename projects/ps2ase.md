@@ -4,6 +4,7 @@
 
 - **구현 범위** 로컬 파일을 통한 레이어 전송과 프레임·정렬 지원
 - **운영 버전** 0.3.6
+- **편집 도구 후속 UI** `499918b`: 미리보기 안의 ‘복사 레이어 편집’에서 반전·회전과 실행 취소·다시 실행을 이름과 아이콘으로 표시합니다. 관련 테스트 25개, 세 언어·Windows Qt 100~200% 좁은 창 검증을 완료했습니다. [화면 전후 비교](https://github.com/rodetoast/PS2ASE/blob/499918b81e62d46e7e659f54e390897ec9a22ed3/docs/ui-reviews/copied-layer-editing.md). 미패키징 상태입니다.
 - **다음 배포용 표시명** Photoshop ↔ Aseprite. 설명: “Photoshop과 Aseprite 사이에서 레이어와 프레임을 손쉽게 주고받고 정렬합니다.” 운영 카탈로그는 변경하지 않았습니다.
 - **후속 UI 소스** `383f1be`: 다크 작업 공간과 가이드, 전송 작업 구획, 세그먼트 선택, 진단 패널 및 경고 정보 위계 개선. 자동 116개 통과, Windows Qt 세 언어·100~200% 배율 확인. [전후 비교](https://github.com/rodetoast/PS2ASE/blob/383f1bed65effc2845c9f5cd9e4ec6d5269cd3ac/docs/ui-reviews/dark-workspace.md). 기존 후보 EXE/ZIP 미포함.
 - **후속 UI 소스** `c4f628a`: Photoshop 연결 선택과 선택 버전의 실행 경고 검토를 분리하고, Aseprite 안내 순서와 기본 접힘 진단 패널을 정리했습니다. 자동 115개 통과, [Windows Qt 화면 검토](https://github.com/rodetoast/PS2ASE/blob/c4f628aba74acce7ac428dea3f35215afea3dd59/docs/ui-reviews/setup-ux.md). 기존 0.3.7-rc1 EXE/ZIP에는 미포함입니다.
