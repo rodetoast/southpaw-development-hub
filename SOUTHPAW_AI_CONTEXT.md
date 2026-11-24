@@ -4,18 +4,18 @@
 
 - 생성일 2026-11-24 (한국 시간)
 - [중앙 개발 허브](https://github.com/rodetoast/southpaw-development-hub)
-- [허브 문서 기준 커밋](https://github.com/rodetoast/southpaw-development-hub/commit/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224) 7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224
+- [허브 문서 기준 커밋](https://github.com/rodetoast/southpaw-development-hub/commit/e89d74f7c05d81df87caecf6eb4cb18538810dd8) e89d74f7c05d81df87caecf6eb4cb18538810dd8
 
 웹 접근이 제한된 ChatGPT 프로젝트에 올리는 참조 파일입니다. 공개 원본을 읽을 수 있으면 원본을 우선합니다. 아래 운영 버전·검증 상태는 인용한 문서의 확인일 기준입니다.
 
 ## 새 개발 작업 시작
 
-1. [공통 개발 지침](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/DEVELOPMENT_RULES.md)을 읽습니다. 패키징·배포 작업에서는 [배포 절차](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/RELEASE_GUIDE.md)도 읽습니다.
-2. [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)에서 해당 프로그램의 상태 문서와 개발 브랜치를 엽니다. 저장소의 AGENTS.md, Git 상태, HEAD, 원격 주소와 관련 설계·검증 기록을 확인합니다.
+1. [공통 개발 지침](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/DEVELOPMENT_RULES.md)을 읽습니다. 패키징·배포 작업에서는 [배포 절차](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/RELEASE_GUIDE.md)도 읽습니다.
+2. [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)에서 해당 프로그램의 상태 문서와 개발 브랜치를 엽니다. 저장소의 AGENTS.md, Git 상태, HEAD, 원격 주소와 관련 설계·검증 기록을 확인합니다.
 3. Codex 지시에는 목표, 보존할 기능과 데이터, 변경 관련 검증, 배포 승인 경계, 완료 시 갱신할 문서를 포함합니다.
 4. 결과를 실제 커밋, 시험 증거, 운영 아티팩트와 비교합니다. 상태 문서가 다르면 확인한 코드·Git·서명 배포 근거에 맞게 문서를 바로잡습니다. 확인된 사실, 기존 보고서와 미검증 상태를 구분합니다.
 
-작업을 시작할 때 [프로젝트 간 협업 규칙](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/COLLABORATION.md)의 프로젝트 라벨에서 현재 프로젝트의 열린 안건만 확인합니다.
+작업을 시작할 때 [프로젝트 간 협업 규칙](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/COLLABORATION.md)의 프로젝트 라벨에서 현재 프로젝트의 열린 안건만 확인합니다.
 
 ### 공개 허브 열기
 
@@ -29,6 +29,8 @@ AGENTS.md는 읽기 절차의 진입점입니다. 링크를 적는 것만으로 
 
 웹 ChatGPT에서 기획·UX·개발 결과를 검토할 때 이 페이지를 공통 시작 링크로 전달합니다. 공개 문서 열람에는 GitHub 계정 연결이 필요 없습니다. 웹 열람이 제한되면 [통합 참조 파일](https://github.com/rodetoast/southpaw-development-hub/blob/main/SOUTHPAW_AI_CONTEXT.md)을 웹 ChatGPT 프로젝트에 업로드합니다. 파일의 기준 커밋과 확인일을 보고 검토 범위를 판단합니다. GitHub에 변경을 올리려면 기존 쓰기 권한이 필요합니다.
 
+UI나 시각적 기능을 검토할 때는 [시각 자료 공유 규칙](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/DEVELOPMENT_RULES.md#디자인-시안과-구현-검토-자료)을 따릅니다. 공개 GitHub 갤러리와 커밋 고정 자료를 열 수 있으면 이를 직접 참조합니다. 웹 ChatGPT에서 이미지 접근이 실패하면 사용자가 필요한 이미지만 프로젝트 공통 소스나 해당 대화에 첨부합니다. GPT에서 만든 시안을 사용자가 파일로 전달하면 Codex는 해당 저장소에 참고 자료로 기록할 수 있습니다. 이 과정은 첨부 파일 전달을 통해 이뤄집니다.
+
 ### 완료 시 기록
 
 의미 있는 변경은 소스 저장소 `docs/PROJECT_STATUS.md`를 먼저 갱신하고, 같은 작업에서 허브의 프로젝트 요약과 목록도 영향받는 범위만 갱신합니다. 상세 근거는 프로젝트 저장소에 남깁니다. 중앙 쓰기 권한이 없으면 패치를 준비하고 동기화 대기라고 보고합니다. 작업을 수행하는 Codex가 실행하는 절차이며 백그라운드 동기화는 없습니다.
@@ -38,10 +40,19 @@ AGENTS.md는 읽기 절차의 진입점입니다. 링크를 적는 것만으로 
 - 기존 기능과 개발 이력을 읽고 요청을 해결하는 범위만 수정합니다. 관련 없는 리팩터링, 관성적인 전체 시험과 중간 지시 교환을 피합니다. 승인 범위에서 기술 문제를 해결하고 관련 검증, 문서화, 안전한 Git 반영까지 진행합니다.
 - 코드와 조건이 같은 시험 결과는 재사용합니다. 실제 실행, 기존 보고서에서 재사용한 결과, 미검증을 구분합니다.
 - 프로젝트의 미커밋 내용을 보존하고 검토된 개발 브랜치에 관련 변경만 정상 커밋과 push로 남깁니다. 기존 프로젝트 상세 규칙을 함께 적용합니다. 지시가 충돌하면 우선순위와 작업 승인 범위를 확인합니다.
-- 회사 공식 심볼과 앱 아이콘을 구분합니다. UI 변경은 실제 Windows에서 관련 DPI, 테마, 좁은 창과 주요 동작을 가능한 범위에서 확인합니다. 공개 가능한 캡처를 GitHub 갤러리에 보존하고 고정 커밋 이미지 링크를 남깁니다.
+- 회사 공식 심볼과 앱 아이콘을 구분합니다. UI 변경은 실제 Windows에서 관련 DPI, 테마, 좁은 창과 주요 동작을 가능한 범위에서 확인합니다.
 - 작업 파일, 설정, 설치 상태, 외부 호스트 계약과 기존 app_id를 보존합니다. 기존 직원에게는 현재 바로가기와 업데이트 버튼을 유지합니다.
 - 서명, 해시, 신뢰 바인딩, 카탈로그 순번과 복구 보호를 유지합니다. 운영 게시, 저장소 소유권 변경, 실제 직원 환경 변경은 해당 범위의 승인을 확인합니다.
 - 완료 기록에 소스 커밋, 구현, 검증·미검증, 버전, 배포 상태 및 후속 작업을 남깁니다. 의미 있는 변경만 중앙 요약에 반영합니다. 공개 범위에 맞춰 직원 자료, 경로, 개인키·토큰을 제외합니다.
+
+### 디자인 시안과 구현 검토 자료
+
+- 각 프로그램의 소스 저장소에서 기존 자료 구조를 우선 사용합니다. 정해진 위치가 없으면 사용자가 제공한 자료나 GPT 시안은 `docs/design-references/`에, 실제 구현 화면·변경 전후 비교·동작 검증은 `docs/ui-reviews/`에 둡니다. 시안과 실행 결과의 종류를 명시합니다.
+- 의미 있는 UI 또는 시각 기능 변경마다 결과를 설명할 최소한의 자료를 남깁니다. 화면 캡처 외에도 픽셀 이펙트, 애니메이션, 이미지 처리 결과, 타임라인 동작 등 기능에 맞는 형식을 씁니다. 움직임이 핵심이면 짧은 GIF나 영상을 사용합니다.
+- 자동 촬영이 가능하면 Codex가 실제 구현을 직접 촬영합니다. 이미 같은 화면 상태를 입증하는 자료를 재사용하고, 비교가 필요할 때만 변경 전후의 대표 자료를 보존합니다.
+- 갤러리 설명에 자료의 종류, 촬영하거나 검토한 버전, 구현 소스 커밋과 화면 상태를 기록합니다. 시안은 제공 출처를 기록하고 빌드 검증 근거로 사용하지 않습니다. 공개 가능한 자료만 커밋하며, 직원 정보·인증 정보·비공개 게임 자료와 사용자 경로가 화면이나 영상에 노출되지 않는지 확인합니다.
+- 완료 보고에는 GitHub 갤러리 URL과 대표 이미지 또는 동작 자료의 **커밋 고정 직접 URL**을 함께 제공합니다. 의미 있는 변경은 프로젝트 상태 문서에도 갤러리를 연결합니다.
+- 다른 프로그램에 참고가 되는 갤러리와 대표 자료는 중앙 허브의 기존 `projects/<project>.md` 요약에서 링크합니다. 중요한 시각 디자인 결정은 [결정 기록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/DECISIONS.md)에 남깁니다. 중앙에는 링크를 관리하고 파일은 프로젝트 저장소에 둡니다. 통합 참조 파일을 재생성하면 결정 기록과 프로젝트 요약에 있는 대표 링크가 포함됩니다.
 
 ### GitHub 개발 인증 및 중앙 허브 갱신
 
@@ -67,7 +78,7 @@ git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username
 2. 선택된 인증의 저장소 쓰기 권한, 토큰 권한 범위, 브랜치 보호 및 Ruleset을 확인합니다. 자격 증명과 토큰을 화면이나 로그에 출력하지 않습니다. 확인할 수 없는 권한은 미확인으로 남깁니다.
 3. 쓰기가 막히면 검토한 문서 커밋과 패치를 안전한 로컬 위치에 보존합니다. 최신 원격 기준, 로컬 커밋, 충돌과 미반영 범위를 인계합니다. 원격에서 문서를 확인한 뒤에만 동기화 완료로 기록합니다.
 
-[시작 안내](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/AI_START_HERE.md) · [배포 절차](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/RELEASE_GUIDE.md)
+[시작 안내](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/AI_START_HERE.md) · [배포 절차](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/RELEASE_GUIDE.md)
 
 ## 배포 후보와 운영 Release
 
@@ -84,7 +95,7 @@ git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username
 3. 정확한 채널·태그·자산의 사용자 승인 후 Draft 자산을 재다운로드해 크기·SHA-256·서명을 확인합니다. 승인 범위에서 정식 게시하고 공개 HTTPS 및 Latest와 필요한 업데이트 호환성을 검증합니다. 동일 순번의 자산을 다른 바이트로 덮어쓰지 않습니다.
 4. 로컬 후보, 서명 후보, 실제 공개, Latest 확인 결과를 구분해 프로젝트와 허브에 기록합니다.
 
-신규 직원 Setup은 별도 산출물입니다. 기존 직원은 현재 바로가기와 업데이트 버튼을 계속 사용합니다. [현재 배포 채널](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+신규 직원 Setup은 별도 산출물입니다. 기존 직원은 현재 바로가기와 업데이트 버튼을 계속 사용합니다. [현재 배포 채널](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 ## 프로젝트 목록
 
@@ -92,17 +103,17 @@ git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username
 
 | 프로그램 | 런처 app_id | 운영 버전 | 개발 상태 | 상세 |
 | --- | --- | --- | --- | --- |
-| [Southpaw 도구 런처](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/launcher.md) | `creative-group-launcher` | 0.2.2 | 0.2.2 운영. 프로그램 관리와 설정 개선 다음에 헤더 공식 회사 심볼을 적용했습니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/qml-product-20261120/docs/PROJECT_STATUS.md) |
-| [TileNamer](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/tilenamer.md) | `tilenamer` | 0.1.6 RC3 | RC3 운영. 배포 기록에서 실행에 필요한 내장 규칙 데이터를 포함합니다. | [상세](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
-| [ase_viewer](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/ase-viewer.md) | `ase-viewer` | 0.5.8.4 | 0.5.8.5 개발 소스에 Viewport Quick Inspector를 추가했습니다. 운영은 0.5.8.4입니다. | [상세](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
-| [AsepriteTagMaster](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/tag-master.md) | `tag-master` | 0.4.0 | 소스와 운영 버전 모두 0.4.0입니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
-| [Ase-PS Bridge Pro](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/ps2ase.md) | `ps2ase` | 0.3.6 | 0.3.7-rc1 후보 완료. 실제 Photoshop 2027 양방향/프레임·정렬 및 Onefile Copy/Paste 검증, 자동 113개 통과. 운영 게시 별도 승인 대기. | [상세](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) |
-| [Pivot_Fixer](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/pivot-fixer.md) | `pivot-fixer` | 0.3.3 | 0.3.3 운영 및 선별 개발 체크포인트를 확인했습니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/Pivot-Fixer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
-| [Pixel Effect Maker](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/pixel-effect-maker.md) | 미확정 | 등록 없음 | 소스 0.0.25 Early Preview입니다. 운영 카탈로그 및 독립 Latest Release는 확인되지 않았습니다. | [상세](https://github.com/rodetoast/Pixel_Effect_Maker/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
+| [Southpaw 도구 런처](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/launcher.md) | `creative-group-launcher` | 0.2.2 | 0.2.2 운영. 프로그램 관리와 설정 개선 다음에 헤더 공식 회사 심볼을 적용했습니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/qml-product-20261120/docs/PROJECT_STATUS.md) |
+| [TileNamer](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/tilenamer.md) | `tilenamer` | 0.1.6 RC3 | RC3 운영. 배포 기록에서 실행에 필요한 내장 규칙 데이터를 포함합니다. | [상세](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
+| [ase_viewer](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/ase-viewer.md) | `ase-viewer` | 0.5.8.4 | 0.5.8.5 개발 소스에 Viewport Quick Inspector를 추가했습니다. 운영은 0.5.8.4입니다. | [상세](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
+| [AsepriteTagMaster](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/tag-master.md) | `tag-master` | 0.4.0 | 소스와 운영 버전 모두 0.4.0입니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
+| [Ase-PS Bridge Pro](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/ps2ase.md) | `ps2ase` | 0.3.6 | 0.3.7-rc1 후보 완료. 실제 Photoshop 2027 양방향/프레임·정렬 및 Onefile Copy/Paste 검증, 자동 113개 통과. 운영 게시 별도 승인 대기. | [상세](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) |
+| [Pivot_Fixer](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/pivot-fixer.md) | `pivot-fixer` | 0.3.3 | 0.3.3 운영 및 선별 개발 체크포인트를 확인했습니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/Pivot-Fixer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
+| [Pixel Effect Maker](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/pixel-effect-maker.md) | 미확정 | 등록 없음 | 소스 0.0.25 Early Preview입니다. 운영 카탈로그 및 독립 Latest Release는 확인되지 않았습니다. | [상세](https://github.com/rodetoast/Pixel_Effect_Maker/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 
 ### 로컬 프로젝트 및 지원 저장소
 
-- [Pixel Motion Studio](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/pixel-motion-studio.md) · 로컬 보존
+- [Pixel Motion Studio](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/pixel-motion-studio.md) · 로컬 보존
 - [Rod 운영](https://github.com/rodetoast/creative-group-releases) · [Toast 호환](https://github.com/toast-source/creative-group-releases) · [시험 배포](https://github.com/rodetoast/creative-group-trial-releases)
 - 시험 증거는 별도 저장소와 기존 접근 정책으로 관리합니다.
 
@@ -116,7 +127,7 @@ git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username
 | 기존 직원 업데이트 버튼 유지 | 기존 Toast 설치는 호환 Bridge, Rod 설치는 관리형 Rod 업데이트를 사용합니다. Toast 채널을 유지해 과거 설치도 업데이트에 접근할 수 있게 합니다. |
 | QML 화면과 기존 엔진 재사용 | QML은 표현 계층이며 기존 Python 설치·검증과 Bootstrap 실행·복구 계약을 유지합니다. |
 
-[런처 현황](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/projects/launcher.md)
+[런처 현황](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/projects/launcher.md)
 
 ## 프로젝트 간 질문과 기술 공유
 
@@ -138,7 +149,7 @@ git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username
 - 다른 프로젝트의 확인이 필요하면 [협업 이슈 작성](https://github.com/rodetoast/southpaw-development-hub/issues/new/choose)에서 관련 프로젝트와 확인할 질문, 이미 시도한 방법, 근거 링크, 막힌 작업을 적습니다. 요청한 쪽과 확인이 필요한 쪽의 프로젝트 라벨을 모두 붙입니다.
 - 기술 확인은 `question` 또는 `cross-project`, 재사용 가능한 사례는 `tech-share`를 사용합니다. 사용자가 제품 방향이나 우선순위를 결정해야 하면 `needs-decision`을 붙이고 선택지와 영향을 적습니다. 실제로 진행할 수 없는 항목에만 `blocked`를 추가합니다.
 - 질문을 올린 후 진행 가능한 작업은 계속합니다. 답변을 기다리며 반복 조회하지 않습니다. 실제로 막힌 부분만 이슈 링크와 함께 보고합니다.
-- 해결되면 답변과 검증 근거를 남기고 이슈를 닫습니다. 공통으로 재사용할 기술은 필요한 범위에서 [공통 개발 지침](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/DEVELOPMENT_RULES.md), 설계 결정은 [결정 기록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/DECISIONS.md)에 연결합니다.
+- 해결되면 답변과 검증 근거를 남기고 이슈를 닫습니다. 공통으로 재사용할 기술은 필요한 범위에서 [공통 개발 지침](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/DEVELOPMENT_RULES.md), 설계 결정은 [결정 기록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/DECISIONS.md)에 연결합니다.
 
 ### 프로젝트 라벨
 
@@ -166,7 +177,7 @@ git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username
 
 2026-11-24 확인 기준, 통합 참조 파일에 포함할 미해결 안건은 없습니다.
 
-이 섹션에는 프로젝트 간 진행을 막거나 사용자 판단이 필요한 중요한 안건만 이슈 번호·링크, 현재 상태, 필요한 결정과 함께 요약합니다. 이미 해결된 항목은 제거하고 계속 적용할 결정은 [결정 기록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/DECISIONS.md)에 남깁니다. 통합 파일은 이 문서와 결정 기록의 커밋을 읽으며 이슈 본문과 댓글을 자동 수집하지 않습니다.
+이 섹션에는 프로젝트 간 진행을 막거나 사용자 판단이 필요한 중요한 안건만 이슈 번호·링크, 현재 상태, 필요한 결정과 함께 요약합니다. 이미 해결된 항목은 제거하고 계속 적용할 결정은 [결정 기록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/DECISIONS.md)에 남깁니다. 통합 파일은 이 문서와 결정 기록의 커밋을 읽으며 이슈 본문과 댓글을 자동 수집하지 않습니다.
 
 ## 프로그램별 요약과 상세 상태
 
@@ -180,7 +191,7 @@ git -c "$key.helper=" -c "$key.helper=!gh auth git-credential" -c "$key.username
 - **다음 단계** 기존 노트에 남은 0.5.8.5 빌드와 실제 Aseprite 연동을 확인합니다.
 - **확인일** 2026-11-24
 
-[상세 개발 현황](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/toastie) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[상세 개발 현황](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/toastie) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 [상세 상태 최신 링크](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [이 파일의 원본 1e5de2b](https://github.com/rodetoast/toastie/blob/1e5de2bc58e65f60c53104af95ec38bc77aac067/docs/PROJECT_STATUS.md)
 
@@ -224,9 +235,10 @@ README의 --check 및 ase_viewer.spec에 따른 빌드 절차를 따릅니다. [
 - **운영 버전** 0.2.2
 - **개발 상태** 0.2.2 운영. 프로그램 관리와 설정 개선 다음에 헤더 공식 회사 심볼을 적용했습니다.
 - **다음 단계** 새 개발 과제가 정해지면 기존 직원의 업데이트 버튼과 시작·복구 계약을 유지합니다.
+- **시각 검토 자료** 공식 회사 심볼은 헤더에 적용하고 기존 제품 아이콘은 제목 표시줄에 유지했습니다. [0.2.2 헤더 변경 전후 갤러리](https://github.com/rodetoast/creative-group-launcher/blob/8bb91efeeb0b67f948309eeb379cc7c37f245321/docs/ui-reviews/header-branding/README.md) · [변경 후 다크 100% 대표 PNG](https://raw.githubusercontent.com/rodetoast/creative-group-launcher/8bb91efeeb0b67f948309eeb379cc7c37f245321/docs/ui-reviews/header-branding/after-dark-100.png)
 - **확인일** 2026-11-24
 
-[상세 개발 현황](https://github.com/rodetoast/creative-group-launcher/blob/codex/qml-product-20261120/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/creative-group-launcher) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[상세 개발 현황](https://github.com/rodetoast/creative-group-launcher/blob/codex/qml-product-20261120/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/creative-group-launcher) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 [상세 상태 최신 링크](https://github.com/rodetoast/creative-group-launcher/blob/codex/qml-product-20261120/docs/PROJECT_STATUS.md) · [이 파일의 원본 8bb91ef](https://github.com/rodetoast/creative-group-launcher/blob/8bb91efeeb0b67f948309eeb379cc7c37f245321/docs/PROJECT_STATUS.md)
 
@@ -274,7 +286,7 @@ Windows PyInstaller 관리형 GUI 빌드 및 launcher-package.json. Setup은 별
 - **다음 단계** 다음 작업에서 선택한 작업 사본의 HEAD와 원격 차이를 확인합니다.
 - **확인일** 2026-11-24
 
-[상세 개발 현황](https://github.com/rodetoast/Pivot-Fixer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/Pivot-Fixer) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[상세 개발 현황](https://github.com/rodetoast/Pivot-Fixer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/Pivot-Fixer) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 [상세 상태 최신 링크](https://github.com/rodetoast/Pivot-Fixer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [이 파일의 원본 53d73c4](https://github.com/rodetoast/Pivot-Fixer/blob/53d73c473ddad728e8e21933a5a394cb7f3837b2/docs/PROJECT_STATUS.md)
 
@@ -320,7 +332,7 @@ run.bat 실행과 Pivot_Fixer.spec 빌드를 따릅니다. 운영 배포는 폴�
 - **다음 단계** 런처 편입은 승인된 제품 식별자와 후보가 확정된 뒤 검토합니다.
 - **확인일** 2026-11-24
 
-[상세 개발 현황](https://github.com/rodetoast/Pixel_Effect_Maker/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/Pixel_Effect_Maker) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[상세 개발 현황](https://github.com/rodetoast/Pixel_Effect_Maker/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/Pixel_Effect_Maker) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 [상세 상태 최신 링크](https://github.com/rodetoast/Pixel_Effect_Maker/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [이 파일의 원본 afcb17c](https://github.com/rodetoast/Pixel_Effect_Maker/blob/afcb17cc822a3b0584be7e93e4a0c26df7e24e8e/docs/PROJECT_STATUS.md)
 
@@ -367,7 +379,7 @@ README, build_preview.bat, Pixel_Effect_Maker.spec의 폴더형 Preview 절차�
 - **운영 배포** 확인된 운영 버전, 런처 app_id, GitHub 소스 주소가 없습니다.
 - **다음 단계** 원격 보존이 결정되면 소유자, 공개 범위와 소스를 확인해 허브를 연결합니다.
 
-[프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 ### Ase-PS Bridge Pro
 
@@ -381,7 +393,7 @@ README, build_preview.bat, Pixel_Effect_Maker.spec의 폴더형 Preview 절차�
 - **다음 단계** 런처 프로젝트에서 후보 ZIP의 설치/업데이트/보존 경로를 검증한 뒤 별도 승인으로 운영 카탈로그 서명·게시합니다. 이번 작업에서 운영 Release/Latest/카탈로그/태그는 바꾸지 않았습니다.
 - **확인일** 2026-11-24
 
-[상세 개발 현황](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/PS2ASE) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[상세 개발 현황](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/PS2ASE) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 [상세 상태 최신 링크](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) · [이 파일의 원본 b8bdcd2](https://github.com/rodetoast/PS2ASE/blob/b8bdcd2d87f195db4a72e2d73de3ad573bfe7281/docs/PROJECT_STATUS.md)
 
@@ -442,7 +454,7 @@ README, build_preview.bat, Pixel_Effect_Maker.spec의 폴더형 Preview 절차�
 - **다음 단계** 새 규칙 변경 요청 시 미리보기와 합성 파일 저장을 먼저 검증합니다. 신규 버전은 미정입니다.
 - **확인일** 2026-11-24
 
-[상세 개발 현황](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/toasty) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[상세 개발 현황](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/toasty) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 [상세 상태 최신 링크](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [이 파일의 원본 48c6eec](https://github.com/rodetoast/toasty/blob/48c6eec3f7324cd34cb5ea62c72246fdd441b6a9/docs/PROJECT_STATUS.md)
 
@@ -488,7 +500,7 @@ README의 main.py 실행, create_build_info.py 및 AsepriteTagMaster.spec 빌드
 - **다음 단계** 후속 배포 시 규칙 데이터 및 Aseprite 연동 범위를 Windows에서 확인합니다.
 - **확인일** 2026-11-24
 
-[상세 개발 현황](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/TileNamer) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/7b5c7fc8b51954c22ce4f6c10ad94826fcb3f224/docs/PROJECTS.md)
+[상세 개발 현황](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/TileNamer) · [프로젝트 목록](https://github.com/rodetoast/southpaw-development-hub/blob/e89d74f7c05d81df87caecf6eb4cb18538810dd8/docs/PROJECTS.md)
 
 [상세 상태 최신 링크](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) · [이 파일의 원본 26819e0](https://github.com/rodetoast/TileNamer/blob/26819e061aa7c2f312c8c8be75699bbbc3d97469/docs/PROJECT_STATUS.md)
 
