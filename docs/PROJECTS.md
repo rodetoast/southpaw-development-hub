@@ -24,7 +24,7 @@
 
 | 프로그램 | 런처 app_id | 운영 버전 | 개발 상태 | 상세 |
 | --- | --- | --- | --- | --- |
-| [Southpaw 도구 런처](../projects/launcher.md) | `creative-group-launcher` | 0.2.2 | 작업 공간의 정렬·이중 상태·설치 완료 안내와 실제 EXE 아이콘을 사용하는 안정적인 바로가기를 개발 브랜치에 반영했습니다. 운영은 0.2.2입니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/workspace-refinement-20261125/docs/PROJECT_STATUS.md) |
+| [Southpaw 도구 런처](../projects/launcher.md) | `creative-group-launcher` | 0.2.2 | 작업 공간 UI와 안정적인 바로가기의 Windows 시험 패키지를 인증 전용 Draft로 운송했습니다. 구 Bootstrap의 관리형 GUI 적용은 확인했고, 첫 v3 교체와 작업 표시줄은 독립 시험 대기입니다. 운영은 0.2.2입니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/workspace-refinement-20261125/docs/PROJECT_STATUS.md) |
 | [TileNamer](../projects/tilenamer.md) | `tilenamer` | 0.1.6 RC3 | RC3 운영. 배포 기록에서 실행에 필요한 내장 규칙 데이터를 포함합니다. | [상세](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [ase_viewer](../projects/ase-viewer.md) | `ase-viewer` | 0.5.8.4 | 0.5.8.5 개발 소스에 Viewport Quick Inspector를 추가했습니다. 운영은 0.5.8.4입니다. | [상세](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [AsepriteTagMaster](../projects/tag-master.md) | `tag-master` | 0.4.0 | 소스와 운영 버전 모두 0.4.0입니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
