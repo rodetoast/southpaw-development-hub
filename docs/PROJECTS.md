@@ -28,7 +28,7 @@
 | [TileNamer](../projects/tilenamer.md) | `tilenamer` | 0.1.6 RC3 | RC3 운영. 배포 기록에서 실행에 필요한 내장 규칙 데이터를 포함합니다. | [상세](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [ase_viewer](../projects/ase-viewer.md) | `ase-viewer` | 0.5.8.4 | 0.5.8.5 개발 소스에 Viewport Quick Inspector를 추가했습니다. 운영은 0.5.8.4입니다. | [상세](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [AsepriteTagMaster](../projects/tag-master.md) | `tag-master` | 0.4.0 | 소스와 운영 버전 모두 0.4.0입니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
-| [Ase-PS Bridge Pro](../projects/ps2ase.md) | `ps2ase` | 0.3.6 | 0.3.7-rc1의 Photoshop 2027 실기동 검증 완료. 다음 표시명 Photoshop ↔ Aseprite 및 작업 공간·초기 설정 흐름·Aseprite 테스트 개선은 개발 소스에 반영, 자동 131개 통과, 미패키징. | [상세](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) |
+| [Ase-PS Bridge Pro](../projects/ps2ase.md) | `ps2ase` | 0.3.6 | 검증된 0.3.7-rc1 유지. 후속 개발 소스는 초기 설정·Trust·단축키 테스트 UX 개선, 미패키징. | [상세](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) |
 | [Pivot_Fixer](../projects/pivot-fixer.md) | `pivot-fixer` | 0.3.3 | 0.3.3 운영 및 선별 개발 체크포인트를 확인했습니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/Pivot-Fixer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [Pixel Effect Maker](../projects/pixel-effect-maker.md) | 미확정 | 등록 없음 | 소스 0.0.25 Early Preview입니다. 운영 카탈로그 및 독립 Latest Release는 확인되지 않았습니다. | [상세](https://github.com/rodetoast/Pixel_Effect_Maker/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 

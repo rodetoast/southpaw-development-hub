@@ -4,6 +4,7 @@
 
 - **구현 범위** 로컬 파일을 통한 레이어 전송과 프레임·정렬 지원
 - **운영 버전** 0.3.6
+- **초기 설정 가이드 후속** `b27f486`: 관련 설정을 본문에 배치하고 하단 탐색을 통일했습니다. 설치·Trust·테스트 준비·결과 대기를 분리하고 20초 제한을 제거했습니다. 가이드 자동 테스트 22개, Windows Qt 100~200% 합성 화면을 확인했습니다. 기준에도 재현된 별도 시작 테스트와 물리 키·실제 Trust는 이번에 확인하지 못했습니다. 기존 후보는 유지합니다. [갤러리](https://github.com/rodetoast/PS2ASE/blob/b27f486223298fa9bbb81fd9e24d6dc3ce1d2afb/docs/ui-reviews/setup-guide-followup/README.md) · [F5 결과 대기 PNG](https://raw.githubusercontent.com/rodetoast/PS2ASE/b27f486223298fa9bbb81fd9e24d6dc3ce1d2afb/docs/ui-reviews/setup-guide-followup/shortcut-waiting.png)
 - **초기 설정 흐름** `7993a75`: 비모달 가이드, 항상 접근 가능한 단계별 버튼, 경고의 파일 설정/실제 적용 상태 구분, Aseprite 테스트 PNG와 마무리 점검표를 추가했습니다. 131개 자동 테스트 및 Windows Qt 100~200%, 격리된 Aseprite CLI 복사 결과 관찰을 확인했습니다. 물리 키 입력은 미검증이며 기존 후보에는 미포함. [갤러리](https://github.com/rodetoast/PS2ASE/blob/7993a759df384186af6b46c69dc7fd8140baec05/docs/ui-reviews/setup-workflow/README.md) · [연결·경고 합본 PNG](https://raw.githubusercontent.com/rodetoast/PS2ASE/7993a759df384186af6b46c69dc7fd8140baec05/docs/ui-reviews/setup-workflow/review-01.png)
 - **초기 설정 정보 카드** `586a05d`: Photoshop 제품명·버전·빌드·경로·실행 상태와 경고 설정을 별도 표시합니다. Windows Qt 100~200% 좁은 창 및 자동 테스트 127개를 확인했습니다. [갤러리](https://github.com/rodetoast/PS2ASE/blob/586a05d0509e11c395bf8ed3ccb3ff3a53bbdbad/docs/ui-reviews/setup-cards/README.md) · [연결 단계 합본 PNG](https://raw.githubusercontent.com/rodetoast/PS2ASE/586a05d0509e11c395bf8ed3ccb3ff3a53bbdbad/docs/ui-reviews/setup-cards/review-01.png)
 - **작업 공간·환경 설정 개선** `fd1b1f4`: 창 높이에 반응하는 픽셀 미리보기, 좁은 창에서 두 전송 행 노출, 설치/등록/Trust/실동작 분리, 시각 도움말 개선. 자동 125개와 Windows Qt 100~200% 확인. 기존 후보에는 미포함. [갤러리](https://github.com/rodetoast/PS2ASE/blob/fd1b1f4285f67813eaa2fa4989eac6cedcd76fb5/docs/ui-reviews/ui-refinement/README.md) · [원본 해상도 메인 합본 PNG](https://raw.githubusercontent.com/rodetoast/PS2ASE/fd1b1f4285f67813eaa2fa4989eac6cedcd76fb5/docs/ui-reviews/ui-refinement/review-01-workspace.png)
@@ -16,6 +17,6 @@
 - **검증** 자동 113개 통과(skip 0). 실제 2027/Aseprite 1.3.18.6 합성 문서로 세 Copy Mode x 세 정렬, 프레임/row 순서·빈 cel, 양방향 픽셀/알파/좌표를 확인했습니다. 패키징 EXE의 Normal Copy/Preview와 역방향 Paste, 2026/2027 목록 구분·저장 경로 복원도 확인했습니다. 2026 및 이전 호스트 실기동, 기존 GUI F4/F5/최초 Trust 재시험과 모든 PC/DPI는 미검증입니다.
 - **후보 소스** `74f57bbf9c01443d1eda6267559762a1088a9236`, 개발 브랜치 `codex/photoshop-2027-candidate-20261124`. 제품명/아이콘/`ps2ase`/`bridge_ui.exe`/설정 위치 유지. [런처 인계·ZIP/EXE 해시](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/RELEASE_0.3.7_HANDOFF.md)
 - **다음 단계** 런처 프로젝트에서 후보 ZIP의 설치/업데이트/보존 경로를 검증한 뒤 별도 승인으로 운영 카탈로그 서명·게시합니다. 이번 작업에서 운영 Release/Latest/카탈로그/태그는 바꾸지 않았습니다.
-- **확인일** 2026-11-24
+- **확인일** 2026-11-25
 
 [상세 개발 현황](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/PS2ASE) · [프로젝트 목록](../docs/PROJECTS.md)
