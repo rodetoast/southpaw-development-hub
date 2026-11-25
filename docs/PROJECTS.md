@@ -2,6 +2,26 @@
 
 확인일 2026-11-24. 운영 버전은 공개 [Rod 카탈로그15](https://github.com/rodetoast/creative-group-releases/releases/tag/rodetoast-catalog-000015)의 서명을 검증해 기록했습니다. 기존 설치는 [Toast 호환 카탈로그9](https://github.com/toast-source/creative-group-releases/releases/tag/production-catalog-000009)를 사용합니다.
 
+## 개발 관리 번호
+
+사용자가 2026-11-25 지정한 대화·개발 관리용 번호입니다. 런처는 번호 없이 런처 개발 및 전체 프로그램 종합 관리·감독을 담당합니다.
+
+| 관리 번호 | 관리용 프로그램 명칭 | 프로젝트 요약 |
+| --- | --- | --- |
+| 없음 | Southpaw Tools Launcher (런처 개발 및 종합 관리감독) | [런처](../projects/launcher.md) |
+| 1 | Photoshop ↔ Aseprite | [PS2ASE](../projects/ps2ase.md) |
+| 2 | Pivot Fixer | [Pivot Fixer](../projects/pivot-fixer.md) |
+| 3 | Aseprite TagMaster | [TagMaster](../projects/tag-master.md) |
+| 4 | Ase Viewer | [Ase Viewer](../projects/ase-viewer.md) |
+| 5 | TileNamer | [TileNamer](../projects/tilenamer.md) |
+| 6 | Pixel Effect Maker | [Pixel Effect Maker](../projects/pixel-effect-maker.md) |
+| 7 | Pixel Motion Studio | [Pixel Motion Studio](../projects/pixel-motion-studio.md) |
+
+- 사용자는 번호만으로 프로그램을 지칭할 수 있습니다. GPT는 대상 프로그램을 언급하거나 Codex 지시를 작성할 때 번호와 위 관리용 프로그램 명칭을 함께 표기합니다(예: (1) Photoshop ↔ Aseprite). 런처는 번호 없이 이름으로 지칭합니다.
+- 번호는 개발 관리용 별칭이며 런처 app_id, 저장소 이름, 실행 파일, 실제 제품 표시명, 배포 설정에 영향을 주지 않습니다. 번호를 임의로 재배정하지 않습니다.
+
+## 운영 및 개발 상태
+
 | 프로그램 | 런처 app_id | 운영 버전 | 개발 상태 | 상세 |
 | --- | --- | --- | --- | --- |
 | [Southpaw 도구 런처](../projects/launcher.md) | `creative-group-launcher` | 0.2.2 | 0.2.2 운영. 프로그램 관리와 설정 개선 다음에 헤더 공식 회사 심볼을 적용했습니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/qml-product-20261120/docs/PROJECT_STATUS.md) |
