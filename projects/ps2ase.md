@@ -4,6 +4,7 @@
 
 - **구현 범위** 로컬 파일을 통한 레이어 전송과 프레임·정렬 지원
 - **운영 버전** 0.3.6
+- **첫 실행 소개·Photoshop 다중 레이어 실습 (2026-11-26)** `6a40d3e`: 앱에 포함한 PSD의 세션 복사본을 Photoshop에서 먼저 열고 정확한 탭에서 4개 레이어를 복사합니다. Photoshop 2027(28.0.0) 일반·실습 PSD/PNG 복사와 다른 탭 거부, Aseprite 1.3.18.6 격리 배치의 4개 cel·픽셀·알파·좌표 확인. 최초 소개 분리, 요청형 실습 도움말, 실제 Scripts 메뉴 캡처, 기본 미리보기 122 → 186 논리 픽셀. 자동 147개 통과. 물리 키 재시험·최초 Trust·콜드 스타트·빌드는 미실시. 0.3.6 운영 및 기존 0.3.7-rc1 유지. [실제 구현 화면과 검증](https://github.com/rodetoast/PS2ASE/blob/6a40d3e00113550cd07509ef733e9f40c833d1fe/docs/ui-reviews/onboarding-guidance-followup/README.md)
 - **F5 차단 복구 및 미리보기 (2026-11-26)** `ad02750`: 이전 Lua의 동일 오류를 파일이 사라진 연습 탭에서 재현했습니다. 과거 보고의 정확한 분기는 미확정입니다. 세션과 경로를 검증하고 설정·누락·접근 오류를 구분합니다. 업데이트 전 작업 저장·종료 안내, 순차 실습 상태 및 최근접 자동 확대를 개선했습니다. 자동 144개와 격리 Aseprite에서 F4 연습 진입을 확인했습니다. 사용자 프로필 물리 F5 및 빌드 미실시. [재현과 화면](https://github.com/rodetoast/PS2ASE/blob/ad0275090464807180247712d7995cdf4c437dba/docs/ui-reviews/f5-recovery-preview/README.md)
 - **실습 UX 재검증 (2026-11-26)** `0c35a17`: 별도 승인용 PNG를 제거하고, 승인된 사용자 예제의 타임라인으로 즉시 F5 결과를 받아 F4 실습과 연결했습니다. 경고 선택·소개·시각 사용 안내 개선. 자동 141개, 실제 Photoshop 2027·격리 Aseprite 배치로 F5→F4→점검표 확인. 물리 키·최초 승인·패키징은 미검증이며 기존 후보와 운영은 유지합니다. [검증과 실제 UI](https://github.com/rodetoast/PS2ASE/blob/0c35a17dc2c2b47aae799e30f2ea422427856702/docs/ui-reviews/onboarding-redesign/README.md)
 - **사용자 피드백 반영 (2026-11-26)** `1c98d9d`: F4/F5 완료 콘솔과 잘못된 클립보드 오류를 수정했습니다. 순차 연습은 일반 클립보드·편집 이력과 분리합니다. Photoshop 경고 양방향 설정, 명시적 Aseprite 설치·단축키 충돌 보호, 경로 재탐색 및 정렬 기억하기를 추가했습니다. 자동 139개, 실제 Photoshop 2027 원본 보호와 Aseprite 배치를 확인했습니다. 새 흐름의 물리 키·Trust는 수동 확인 대상이며 기존 후보와 운영은 유지합니다. [검증 및 화면](https://github.com/rodetoast/PS2ASE/blob/1c98d9d523538cde6fb14418324aef33fbece490/docs/ui-reviews/practice-lessons/README.md)
@@ -23,6 +24,6 @@
 - **검증** 자동 113개 통과(skip 0). 실제 2027/Aseprite 1.3.18.6 합성 문서로 세 Copy Mode x 세 정렬, 프레임/row 순서·빈 cel, 양방향 픽셀/알파/좌표를 확인했습니다. 패키징 EXE의 Normal Copy/Preview와 역방향 Paste, 2026/2027 목록 구분·저장 경로 복원도 확인했습니다. 2026 및 이전 호스트 실기동, 기존 GUI F4/F5/최초 Trust 재시험과 모든 PC/DPI는 미검증입니다.
 - **후보 소스** `74f57bbf9c01443d1eda6267559762a1088a9236`, 개발 브랜치 `codex/photoshop-2027-candidate-20261124`. 제품명/아이콘/`ps2ase`/`bridge_ui.exe`/설정 위치 유지. [런처 인계·ZIP/EXE 해시](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/RELEASE_0.3.7_HANDOFF.md)
 - **다음 단계** 런처 프로젝트에서 후보 ZIP의 설치/업데이트/보존 경로를 검증한 뒤 별도 승인으로 운영 카탈로그 서명·게시합니다. 이번 작업에서 운영 Release/Latest/카탈로그/태그는 바꾸지 않았습니다.
-- **확인일** 2026-11-25
+- **확인일** 2026-11-26
 
 [상세 개발 현황](https://github.com/rodetoast/PS2ASE/blob/codex/photoshop-2027-candidate-20261124/docs/PROJECT_STATUS.md) · [소스 저장소](https://github.com/rodetoast/PS2ASE) · [프로젝트 목록](../docs/PROJECTS.md)
