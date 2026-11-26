@@ -24,7 +24,7 @@
 
 | 프로그램 | 런처 app_id | 운영 버전 | 개발 상태 | 상세 |
 | --- | --- | --- | --- | --- |
-| [Southpaw 도구 런처](../projects/launcher.md) | `creative-group-launcher` | 0.2.2 | 0.2.3 Bootstrap v4 개발 후보에서 운영 v3의 자동 교체와 실패 시 복원, 중복 실행 안내 및 합성 도구의 링크 v1→v2를 격리 Windows 환경에서 확인했습니다. 운영은 GUI 0.2.2입니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/workspace-refinement-20261125/docs/PROJECT_STATUS.md) |
+| [Southpaw 도구 런처](../projects/launcher.md) | `creative-group-launcher` | 0.2.2 | GUI 0.2.3과 Bootstrap v4의 Rod16 운영 서명 후보가 준비됐습니다. 격리 Windows에서 Rod 직접 설치와 재구성한 Toast Bridge 구조의 자동 교체, 실제 Pivot Fixer 바로가기 실행을 확인했습니다. 운영은 GUI 0.2.2입니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/workspace-refinement-20261125/docs/PROJECT_STATUS.md) |
 | [TileNamer](../projects/tilenamer.md) | `tilenamer` | 0.1.6 RC3 | RC3 운영. 배포 기록에서 실행에 필요한 내장 규칙 데이터를 포함합니다. | [상세](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [ase_viewer](../projects/ase-viewer.md) | `ase-viewer` | 0.5.8.4 | 0.5.8.5 개발 소스에 Viewport Quick Inspector를 추가했습니다. 운영은 0.5.8.4입니다. | [상세](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [AsepriteTagMaster](../projects/tag-master.md) | `tag-master` | 0.4.0 | 소스와 운영 버전 모두 0.4.0입니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
