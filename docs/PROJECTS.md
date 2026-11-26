@@ -1,6 +1,6 @@
 # 프로젝트 목록
 
-확인일 2026-11-24. 운영 버전은 공개 [Rod 카탈로그15](https://github.com/rodetoast/creative-group-releases/releases/tag/rodetoast-catalog-000015)의 서명을 검증해 기록했습니다. 기존 설치는 [Toast 호환 카탈로그9](https://github.com/toast-source/creative-group-releases/releases/tag/production-catalog-000009)를 사용합니다.
+확인일 2026-11-26. 운영 버전은 공개 [Rod 카탈로그16](https://github.com/rodetoast/creative-group-releases/releases/tag/rodetoast-catalog-000016)의 서명을 검증해 기록했습니다. 기존 설치는 [Toast 호환 카탈로그9](https://github.com/toast-source/creative-group-releases/releases/tag/production-catalog-000009)를 사용합니다.
 
 ## 개발 관리 번호
 
@@ -24,7 +24,7 @@
 
 | 프로그램 | 런처 app_id | 운영 버전 | 개발 상태 | 상세 |
 | --- | --- | --- | --- | --- |
-| [Southpaw 도구 런처](../projects/launcher.md) | `creative-group-launcher` | 0.2.2 | GUI 0.2.3과 Bootstrap v4의 Rod16 운영 서명 후보가 준비됐습니다. 격리 Windows에서 Rod 직접 설치와 재구성한 Toast Bridge 구조의 자동 교체, 실제 Pivot Fixer 바로가기 실행을 확인했습니다. 운영은 GUI 0.2.2입니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/workspace-refinement-20261125/docs/PROJECT_STATUS.md) |
+| [Southpaw 도구 런처](../projects/launcher.md) | `creative-group-launcher` | 0.2.3 | GUI 0.2.3 / Bootstrap v4가 Rod Latest16에 공개됐습니다. 공개 8자산과 Rod15·Toast9의 업데이트 조회 호환성을 확인했습니다. 회사 도구 5개의 운영 자산과 카탈로그 항목은 유지했습니다. | [상세](https://github.com/rodetoast/creative-group-launcher/blob/codex/workspace-refinement-20261125/docs/PROJECT_STATUS.md) |
 | [TileNamer](../projects/tilenamer.md) | `tilenamer` | 0.1.6 RC3 | RC3 운영. 배포 기록에서 실행에 필요한 내장 규칙 데이터를 포함합니다. | [상세](https://github.com/rodetoast/TileNamer/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [ase_viewer](../projects/ase-viewer.md) | `ase-viewer` | 0.5.8.4 | 0.5.8.5 개발 소스에 Viewport Quick Inspector를 추가했습니다. 운영은 0.5.8.4입니다. | [상세](https://github.com/rodetoast/toastie/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
 | [AsepriteTagMaster](../projects/tag-master.md) | `tag-master` | 0.4.0 | 소스와 운영 버전 모두 0.4.0입니다. 후속 바이너리는 미확인입니다. | [상세](https://github.com/rodetoast/toasty/blob/codex/migration-checkpoint-20261117/docs/PROJECT_STATUS.md) |
